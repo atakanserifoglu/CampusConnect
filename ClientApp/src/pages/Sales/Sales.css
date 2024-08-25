@@ -1,0 +1,85 @@
+.header-font{
+  font-family: "Jockey One", sans-serif;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  color: var(--main-page-title-color);
+  line-height: 1.25em;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.sales-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: .5%;
+  justify-content: center;
+}
+
+.card-margin{
+  margin: 2%;
+}
+
+.dropdown-sales {
+  margin-left: 1rem;
+  padding: 10px 20px;
+  background-color: #2E2B31;
+  color: #D9D9D9;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.dropdown-sales-text {
+  color: #D9D9D9;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.dropdown-sales-content {
+  display: none;
+  position: absolute;
+  background-color: #2E2B31;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-sales-content a {
+  color: #D9D9D9;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: block;
+}
+
+.dropdown-sales-content a:hover {
+  background-color: #740216;
+  border-radius: 8px;
+}
+
+.dropdown-sales:hover .dropdown-sales-content {
+  display: block;
+}
+
+.dropdown-sales:hover {
+  background-color: #250E3D;
+}
+
+/* Adjust styling for smaller screens */
+@media screen and (max-width: 768px) {
+
+}

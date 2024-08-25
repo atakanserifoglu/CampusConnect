@@ -1,0 +1,134 @@
+@import "../../constants/StyleConstants.css";
+.container{
+    display:flex;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+
+    border-top: 2px solid var(--border-color);
+}
+
+.sidebar{
+    background: var(--main-bg-color);
+    transition: all 0.5s;
+    height: 100vh;
+    margin-top: 9.7vh;
+    position: fixed;
+    border-right: 2px solid var(--border-color);
+    z-index: 10000;
+    width: var(--sidebar-size);
+}
+
+.main{ 
+    padding: 30px;
+    display:block;
+    margin-top: 10vh;
+    margin-left: var(--sidebar-size);
+    height: 90vh;
+    width: 100%;
+}
+
+.top-section{
+    display: flex;
+    align-items:center;
+
+    padding: 20px 21px;
+    margin-bottom: 30px;
+}
+
+.top-space{
+    padding-top: 1rem;
+}
+
+.link{
+    display: flex;
+    color: #898989;
+    padding: 10px 40px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link-container{
+    position: relative;
+}
+
+.open-link{
+    display: flex;
+    color: #898989;
+    transition: all 0.5s; 
+}
+
+.link:hover{
+    color: #D9D9D9;
+    transition: all 0.5s;
+    background-color: #740216;
+    margin-right: 6px;
+    border-radius: 0 20px 20px 0;
+}
+
+.active{
+    color: #D9D9D9;
+    background-color: #740216;
+    margin-right: 6px;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+}
+
+.link_text{
+    font-size: 16px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.icon{
+    font-size: 19px;
+}
+
+.icon-closed{
+    font-size: 24px;
+}
+
+.items-container, .lf-container{
+    height: 30;
+    padding: 20px 40px;
+    padding-bottom: 10px;
+    gap: 15px;
+    color: #898989;
+}
+
+.items-container{
+    padding-top: 60px;
+}
+
+.lf-container{
+    padding-top: 60px;
+}
+
+.campus-connect-header{
+    font-family: "Jockey One", sans-serif;
+    font-size: 36px;
+    color: #D9D9D9;
+    line-height: auto;
+    align-self: center;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+
+
+@media screen and (max-width: 768px) {
+   .close{
+    width: 100%;
+    transition: all 0.5s;
+
+   }
+
+    .main{
+        margin-left: 1rem;
+    }
+
+    .sidebar{
+        border-right: none;
+    }
+  }
+  

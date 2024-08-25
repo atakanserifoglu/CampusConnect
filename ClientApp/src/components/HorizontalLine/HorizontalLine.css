@@ -1,0 +1,6 @@
+.horizontal-line {
+    width: 100%;            /* Width of the vertical line */
+    height: 10px;          /* Height of the vertical line (adjust as needed) */
+    background-color: white; /* Line color */
+    margin: 0 auto;        /* Center the line horizontally (optional) */
+  }

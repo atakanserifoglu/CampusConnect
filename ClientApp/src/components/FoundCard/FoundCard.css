@@ -1,0 +1,120 @@
+.found-card {
+    width: 300px;
+    height: 260px;
+    padding: 10px;
+    background: #5E5764;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 0 0 auto;
+  }
+  
+  .found-card-image{
+    position: relative;
+    padding: 2px;
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  .found-tag {
+    display: flex;
+    align-items: center;
+    height: 17px;
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    background: #05581e;
+    color: white;
+    padding: 1px 15px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .found-tag-text{
+    font-family: 'K2D', sans-serif;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-left: -10px;
+  }
+  
+  .found-tag-icon{
+    font-size: 10px;
+    margin-top: 2.5px;
+    margin-right: 10px;
+  }
+  
+  .found-heart-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 26px; 
+    right: 14px;
+  }
+  
+  .found-card-image img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .found-card-content {
+    height: 20%;
+    padding-left: 10px;
+    margin-top: -5px;
+    text-align: left;
+  }
+  
+  .found-contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    bottom: -1px;
+    right: 12px;
+    background: #250E3D;
+    color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .found-contact-button-text {
+    font-family: 'K2D', sans-serif;
+    font-size: 13px;
+  }
+  
+  .found-contact-button-icon {
+    font-size: 13px;
+    padding-top: 3px;
+    margin-right: 3px;
+  }
+  
+  .found-card-footer {
+    background: #5E5764;
+    margin-top: 20px;
+    margin-right: 7px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  .found-date {
+    font-family: 'K2D', sans-serif;
+    color: #AEA4B8;
+  }
+  
+  .found-title {
+    font-size: 35px;
+    margin-top: -8px;
+    color: #D9D9D9;
+    font-family: 'Jomhuria', sans-serif;
+  }
+  
+  .found-description {
+    font-size: 12px;
+    margin-top: -6px;
+    color: #C1C1C1;
+    font-family: 'K2D', sans-serif;
+  }

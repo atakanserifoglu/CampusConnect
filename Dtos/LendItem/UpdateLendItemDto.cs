@@ -1,0 +1,18 @@
+﻿namespace my_new_app.Dtos.LendItem
+{
+	public class UpdateLendItemDto
+	{
+        public int ID { get; set; }
+
+        public string? header { get; set; }
+
+        public string? title { get; set; }
+
+        public string? description { get; set; }
+
+        public int landDurationDays { get; set; }
+
+        public List<IFormFile>? imageFile { get; set; } = new List<IFormFile>();
+    }
+}
+

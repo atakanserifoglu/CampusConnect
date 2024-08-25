@@ -1,0 +1,136 @@
+.sales-card {
+  width: 300px;
+  height: 260px;
+  padding: 10px;
+  background: #5E5764;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* margin: 12px 1% 3% 3%;  */
+  flex: 0 0 auto;
+}
+
+.sales-card-image{
+  position: relative;
+  padding: 2px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.sales-tag {
+  display: flex;
+  align-items: center;
+  height: 17px;
+  position: absolute;
+  top: -4px;
+  right: -10px;
+  background: #740216;
+  color: white;
+  padding: 1px 15px;
+  border-radius: 5px 0 0 5px;
+}
+
+.sales-tag-text{
+  font-family: 'K2D', sans-serif;
+  font-size: 13px;
+  margin-right: 3px;
+  margin-left: -10px;
+}
+
+.sales-tag-icon{
+  font-size: 10px;
+  margin-top: 2.5px;
+  margin-right: 10px;
+}
+
+.sales-heart-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 26px; 
+  right: 14px;
+}
+
+.sales-card-image img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover; 
+  display: block;
+  border-radius: 5px;
+}
+
+.sales-card-content {
+  height: 20%;
+  padding-left: 10px;
+  margin-top: -5px;
+  text-align: left;
+}
+
+.sales-contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  bottom: -1px;
+  right: 12px;
+  background: #250E3D;
+  color: #D9D9D9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sales-contact-button-text {
+  font-family: 'K2D', sans-serif;
+  font-size: 13px;
+}
+
+.sales-contact-button-icon {
+  font-size: 13px;
+  padding-top: 3px;
+  margin-right: 3px;
+}
+
+.sales-card-footer {
+  background: #5E5764;
+  margin-top: 15px;
+  margin-right: 7px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.sales-date {
+  font-family: 'K2D', sans-serif;
+  color: #AEA4B8;
+}
+
+.sales-price-text {
+  font-size: 35px;
+  margin-top: 2px;
+  color: #C1C1C1;
+  font-family: 'Jomhuria', sans-serif;
+}
+
+.sales-product-name {
+  font-size: 27px;
+  color: #D9D9D9;
+  
+  margin-top: -7px;
+  font-family: 'Jomhuria', sans-serif;
+}
+
+.sales-header-text{
+  font-size: 12px;
+  margin-top: -6px;
+  color: #C1C1C1;
+  font-family: 'K2D', sans-serif;
+}
+
+.sales-description {
+  font-size: 12px;
+  margin-top: -6px;
+  color: #C1C1C1;
+  font-family: 'K2D', sans-serif;
+}

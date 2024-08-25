@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+.error {
+  color: red; /* Set the color to red or the desired style for error text */
+  font-size: 12px; /* Set the font size for the error message */
+  position: absolute; /* Use absolute positioning to overlay the error message */
+  margin-top: 5px; /* Adjust the margin to control the vertical positioning */
+}
+.signin-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singup-form-control {
+  position: relative;
+  margin-bottom: 1rem;
+  color: cyan;
+  z-index: 1;
+}
+
+.singup-form-control input,
+.singup-form-control label {
+  display: flex;
+  align-items: center;
+}
+
+.signup-form-identifier{
+  position: absolute;
+  color: #D9D9D9;
+  background-color: #2E2B31;
+  width: fit-content;
+  font-family: 'Jockey One', sans-serif;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  letter-spacing: 0.08rem;
+  margin-top: -0.5rem;
+  margin-left: 1rem;
+}
+
+.singup-form-control input,
+.singup-form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 4px solid #D9D9D9;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.singup-form-control input:focus {
+  outline: none;
+  border-color: #660430;
+  background-color: #2E2B31;
+}
+
+.singup-form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  background-color: #7C7484;
+  color: white;
+  border: 1px solid #7C7484;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #5E5764;
+  border-color: #5E5764;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #5E5764;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #5E5764;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+.forgot-password{
+  margin-top: 0.5rem;
+  font-size: small;
+  text-decoration: underline;
+  color: #7C7484;
+  display: flex;
+  align-items: center;
+}
+
+.forgot-password:hover{
+  cursor: pointer; 
+}
+
+.signup-form-input {
+  background-color: #2E2B31; /* Set your desired background color */
+  height: 3.7rem;
+  box-sizing: border-box;
+  color: #D9D9D9;
+}
+
+.signup-form-input::placeholder{
+  padding-left: 0.3rem;
+  color: #7C7484;
+}
+
+.signup-form-actions button {
+  margin-top: 0.6rem;
+  background-color: #7C7484;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+  margin-left: 0;
+}
+
+.signup-form-actions button:hover,
+.signup-form-actions button:active {
+  background-color: #660430;
+  border-color: #660430;
+}
+
+.button-text {
+  font-family: 'Jockey One', sans-serif;
+  font-size: 1.3rem;
+  color: #D9D9D9;
+  letter-spacing: 0.07rem;
+}
+
+.signup-form-actions {
+  text-align: right;
+}

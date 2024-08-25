@@ -1,0 +1,27 @@
+.header-font{
+    font-family: "Jockey One", sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    color: var(--main-page-title-color);
+    line-height: 1.25em;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.sales-cards-container-dashboard {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+/* Optional: Add a scrollbar for better visibility even if it's not needed */
+.sales-cards-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.sales-cards-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}

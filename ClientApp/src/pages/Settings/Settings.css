@@ -1,0 +1,45 @@
+/* SettingsPage.css */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  color: #D9D9D9;
+}
+
+.options-container button {
+  background-color: var(--background-color);
+  color: #D9D9D9;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #BE0E0E;
+  color: #D9D9D9;
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: #BE0E0E;
+}
+
+.header-font{
+  font-family: "Jockey One", sans-serif;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  color: var(--main-page-title-color);
+  line-height: 1.25em;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.settings-page-card{
+  margin-left: 5%;
+}
+
+.description-notification{
+  color: #D9D9D9;
+  margin-top: 0.5rem;
+}

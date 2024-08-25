@@ -1,0 +1,111 @@
+.sales-cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 3%;
+    justify-content: flex-start;
+}
+
+.all-header {
+    font-family: "Jockey One", sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    color: var(--main-page-title-color);
+    line-height: 1.25em;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.card-margin{
+    margin: 2%;
+}
+
+.all-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: .5%;
+    justify-content: center;
+}
+
+.dropdown-all {
+    margin-left: 1rem;
+    padding: 10px 20px;
+    background-color: #2E2B31;
+    color: #D9D9D9;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.dropdown-all-text {
+    color: #D9D9D9;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+.dropdown-all-content {
+    display: none;
+    position: absolute;
+    background-color: #2E2B31;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.dropdown-all-content a {
+    color: #D9D9D9;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: block;
+}
+
+.dropdown-all-content a:hover {
+    background-color: #740216;
+    border-radius: 8px;
+}
+
+.dropdown-all:hover .dropdown-all-content {
+    display: block;
+}
+
+.dropdown-all:hover {
+    background-color: #250E3D;
+}
+
+.all-sub-title {
+    font-family: 'Urbanist';
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #D9D9D9;
+    text-align: center;
+    margin: 2rem 0 0.8rem 0;
+}
+
+.all-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.no-items-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #D9D9D9;
+    font-size: 18px;
+  }
